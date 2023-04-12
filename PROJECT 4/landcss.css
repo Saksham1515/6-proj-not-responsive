@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(developer.png);
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.txt-container{
+    color: white;
+    position: absolute;
+    text-align: center;
+    left:30%;
+}
+.txt-container h2,h1{
+    text-align: left;
+    font-size: 37px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+.lg-txt{
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+}

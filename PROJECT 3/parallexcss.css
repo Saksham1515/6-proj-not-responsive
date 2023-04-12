@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.image1{
+    background-image: url(image1.png);
+    min-height:700px;
+}
+.image2{
+    background-image: url(image2.png);
+    min-height:700px;
+}
+.image3{
+    background-image: url(image3.png);
+    min-height:700px;
+}
+.image1,.image2,.image3{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptxt{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.txt1{
+    background-color:black;
+    color: white;
+    padding:13px;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+.section-one,.section-three{
+    padding: 50px 60px;
+    text-align: center;
+}
+.section-one h2,.section-two h2,.section-three h2{
+    font-size: 75px;
+    font-family: serif;
+    font-weight: lighter;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.section-one p,.section-two p,.section-three p{
+    text-align: justify;
+    line-height: 35px;
+    font-size: 27px;
+    font-weight:14px;
+}
+.section-two{
+    padding: 50px 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.ptxt2{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.txt2{
+    color: white;
+    padding:13px;
+    letter-spacing: 1.7px;
+    background:rgba(0, 0, 0, 0.5)
+}
+
+
